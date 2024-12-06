@@ -39,12 +39,12 @@ fi
 if test "${TERMUX_BASE_DIR+set}" = set; then
   termux_base_dir="$TERMUX_BASE_DIR"
 else
-  termux_base_dir="/data/data/$termux_app_package/files"
+  termux_base_dir="/data/local/tmp/tmadb/files"
 fi
 if test "${TERMUX_CACHE_DIR+set}" = set; then
   termux_cache_dir="$TERMUX_CACHE_DIR"
 else
-  termux_cache_dir="/data/data/$termux_app_package/cache"
+  termux_cache_dir="/data/local/tmp/tmadb/cache"
 fi
 if test "${TERMUX_PREFIX+set}" = set; then
   termux_prefix="$TERMUX_PREFIX"
